@@ -1,5 +1,5 @@
-import styled from '@emotion/native'
 import {View} from 'react-native'
+import {styled} from "../lib/emotion/emotion";
 
 type PlacementAbbr = '' | 't' | 'r' | 'b' | 'l' | 'x' | 'y'
 type MarginAbbr = `m${PlacementAbbr}`
